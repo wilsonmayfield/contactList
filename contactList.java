@@ -8,7 +8,7 @@ import java.io.*;
  * @4-17-19 created
  * @4-22-19 code now takes input & communicates with contact.java
  * @4-23-19 creates array, can view & create contacts
- * @4-29-19
+ * @4-29-19 added delete() method & contact numbers
  */
 public class contactList
 {
@@ -18,7 +18,7 @@ public class contactList
     public static void main(){
         Contacts.add(new Contact("Wilson", "Mayfield", "Programmer", "2164 Everett Road", "wilsonmayfield2003@gmail.com", "719-924-2778"));
         Contacts.add(new Contact("Charles", "Rothbaum", "Programmer", "5555 Charles Street", "charlesrothbaum@rothmail.com", "719-999-6666"));
-        
+
         System.out.println("---CONTACT UTILITY---");
         Scanner in = new Scanner(System.in);
         System.out.println("Type 'help' for help.");
@@ -65,6 +65,7 @@ public class contactList
 
     public static void viewContacts(){
         num = 1;
+        sortContacts();
         for(Contact contact: Contacts) {
             System.out.println("Contact "+num+++":");
             System.out.println(contact);
@@ -82,11 +83,12 @@ public class contactList
 
     public static void deleteContact(){
         num = 1;
-        System.out.println("Enter the number of the contact you want to delete.");
+        sortContacts();;
         for(Contact contact: Contacts) {
             System.out.println("Contact "+num+++":");
             System.out.println(contact);
         }
+        System.out.println("Enter the number of the contact you want to delete.");
         Scanner in = new Scanner(System.in);
         int del = in.nextInt() - 1;
         String fName = Contacts.get(del).firstName;
@@ -127,4 +129,7 @@ public class contactList
         return "";
     }
 
+    public static void sortContacts(){
+        Collections.sort(Contacts, Comparator.comparing(Contact::getFirstName));
+    }
 }
