@@ -1,8 +1,12 @@
+------------------------------------------------------------------------
+This is the project README file. Here, you should describe your project.
+Tell the reader (someone who does not know anything about this project)
+all he/she needs to know. The comments should usually include at least:
+------------------------------------------------------------------------
 
-PROJECT TITLE: Contact List
-PURPOSE OF PROJECT: Simulate a contacts book for a phone or something.
-VERSION or DATE: @4-30-19
-HOW TO START THIS PROJECT: Compile contactList and Contact and then run contactList.
-AUTHORS: Wilson Mayfield
-Changelogs are in the files themselves.
-
+PROJECT TITLE:
+PURPOSE OF PROJECT:
+VERSION or DATE:
+HOW TO START THIS PROJECT:
+AUTHORS:
+USER INSTRUCTIONS:

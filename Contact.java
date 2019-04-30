@@ -3,14 +3,14 @@ import java.util.ArrayList;
 /**
  * Sets up contacts that can be filled in. Not sure how it does that yet, honestly. 
  *
- * @wilson
+ * @wilson mayfield
  * @4-17-19 created
  * @4-22-19 created constructor 
  * @4-23-19 added toString() override
  */
 public class Contact
 {
-    public String firstName;
+    public String firstName; //defining strings for the object
     public String lastName;
     public String occupation;
     public String address;
@@ -24,11 +24,12 @@ public class Contact
         this.address = address;
         this.email = email;
         this.phone = phone;
+        //defines the Contact object for creating contacts & filling in their info
     }
 
-    @Override
-    public String toString() {
-        return
+    @Override //This is for printing the array.
+    public String toString() { //Need to override .toString() in order to print everything in the Contact object.
+        return //Prints out each piece of data on a new line, except for the first & last names.
         ("Name: "+this.getFirstName()+" "+this.getLastName()+
             "\nOccupation: "+this.getOccupation()+
             "\nAddress: "+this.getAddress()+
@@ -36,7 +37,7 @@ public class Contact
             "\nPhone Number: " +this.getPhone()+
             "\n");
         }
-
+        //Set & get individual pieces of information for each Contact object. Needed to build & print contacts.
     public String getFirstName(){
         return firstName;
     }
