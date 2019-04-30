@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=contactList
+comment0.text=\n\ Lists,\ creates,\ and\ deletes\ contacts.\ Or\ it'll\ do\ that\ sometime.\ Eventually.\ Maybe.\n\n\ @wilson\n\ @4-17-19\ created\n\ @4-22-19\ code\ now\ takes\ input\ &\ communicates\ with\ contact.java\n\ @4-23-19\ creates\ array,\ can\ view\ &\ create\ contacts\n\ @4-29-19\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=
+comment2.target=void\ help()
+comment3.params=
+comment3.target=void\ viewContacts()
+comment4.params=
+comment4.target=void\ deleteContact()
+comment5.params=
+comment5.target=Contact\ createContact()
+comment6.params=
+comment6.target=java.lang.String\ search()
+numComments=7
