@@ -7,6 +7,7 @@ import java.util.ArrayList;
  * @4-17-19 created
  * @4-22-19 created constructor 
  * @4-23-19 added toString() override
+ * @4-30-19 added comments
  */
 public class Contact
 {

@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Contact
-comment0.text=\n\ Sets\ up\ contacts\ that\ can\ be\ filled\ in.\ Not\ sure\ how\ it\ does\ that\ yet,\ honestly.\ \n\n\ @wilson\ mayfield\n\ @4-17-19\ created\n\ @4-22-19\ created\ constructor\ \n\ @4-23-19\ added\ toString()\ override\n
+comment0.text=\n\ Sets\ up\ contacts\ that\ can\ be\ filled\ in.\ Not\ sure\ how\ it\ does\ that\ yet,\ honestly.\ \n\n\ @wilson\ mayfield\n\ @4-17-19\ created\n\ @4-22-19\ created\ constructor\ \n\ @4-23-19\ added\ toString()\ override\n\ @4-30-19\ added\ comments\n
 comment1.params=firstName\ lastName\ occupation\ address\ email\ phone
 comment1.target=Contact(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
 comment10.params=a
