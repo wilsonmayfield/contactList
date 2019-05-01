@@ -9,6 +9,7 @@ import java.util.*;
  * @4-23-19 creates array, can view & create contacts
  * @4-29-19 added delete() method & contact numbers
  * @4-30-19 added comments & cleaned code up, unimported java.io.*
+ * @4-31-19 fixed a contact duplication bug
  */
 public class contactList
 {
