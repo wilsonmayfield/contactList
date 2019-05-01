@@ -14,8 +14,9 @@ public class contactList
 {
     public static String msg; //msg defined up here so it can be used in multiple methods
     public static ArrayList<Contact> Contacts = new ArrayList<Contact>(); //arraylist of contacts
-    public static int num; // counter for number of contacts
+    public static int num; //counter for number of contacts
     public static void main(){//basically populates the array & lets the user interact with the program
+        Contacts.clear();//clears the array to avoid a bug where the array can duplicate contacts
         //two test contacts
         Contacts.add(new Contact("Wilson", "Mayfield", "Programmer", "2164 Everett Road", "wilsonmayfield2003@gmail.com", "719-924-2778"));
         Contacts.add(new Contact("Charles", "Rothbaum", "Programmer", "5555 Charles Street", "charlesrothbaum@rothmail.com", "719-999-6666"));
